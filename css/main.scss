@@ -48,6 +48,27 @@ header {
     }
   }
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #00f7ff;
+    font-weight: bold;
+  }
+
+  nav {
+    float: right;
+    ul {
+      display: flex;
+      a {
+        display: block;
+        padding: 0 1em;
+      }
+    }
+  }
+}
 
 .social-header,
 .hero-design {
@@ -218,8 +239,15 @@ section {
     header {
       background: #6700ee;
     }
+    footer {
+      background: #6700ee;
+      width: 132.3%;
+    }
   }
   header {
+    padding: 2em 2em 2em 4em;
+  }
+  footer {
     padding: 2em 2em 2em 4em;
   }
   .social-header {
@@ -275,6 +303,9 @@ section {
   header {
     padding: 2em 2em 2em 10em;
   }
+  footer {
+    padding: 2em 2em 2em 10em;
+  }
   .social-header {
     padding: 2em 10em 2em 0;
   }
@@ -288,6 +319,9 @@ section {
 
 @media only screen and (min-width: 1550px) {
   header {
+    padding: 2em 2em 2em 20em;
+  }
+  footer {
     padding: 2em 2em 2em 20em;
   }
   .social-header {
